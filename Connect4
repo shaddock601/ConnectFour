@@ -57,10 +57,10 @@ void turn(int grid[6][7], int player)
 	{
 		for (int j = 0; j < 7; j++)
 		{
-			if (grid[5][3] == 0)
+			/*if (grid[5][3] == 0)
 			{
 				pick = 4;
-			}
+			}*/
 			if (grid[5][j] == 1)
 			{
 				pick = j + 1;
